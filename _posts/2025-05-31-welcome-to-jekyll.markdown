@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Welcome to Jekyll!"
+title:  "til"
 date:   2025-05-31 16:18:59 -0300
 category: [til]
 katex: true
