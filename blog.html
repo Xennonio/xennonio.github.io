@@ -1,0 +1,15 @@
+---
+layout: default
+title: Blog
+---
+<h1>My Posts</h1>
+
+<ul>
+  {% assign sorted_pages = site.posts | sort:"order" %}
+  {% for post in sorted_pages reversed %}
+    <li>
+      <h2><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h2>
+      {{ post.excerpt }}
+    </li>
+  {% endfor %}
+</ul>
