@@ -4,7 +4,7 @@
 
 layout: default
 title: Home
-permalink: /home/
+permalink: /
 ---
 
 deixa eu ver se esse é o home
