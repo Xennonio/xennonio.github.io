@@ -3,7 +3,7 @@ layout: post
 title:  "Welcome to Jekyll!"
 date:   2025-05-31 16:18:59 -0300
 categories: jekyll update
-usemathjax: true
+katex: true
 ---
 
 $x^2=y$
