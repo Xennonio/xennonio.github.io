@@ -6,8 +6,8 @@ permalink: /cool-stuffs/
 <h1>Cool Stuffs</h1>
 
 <ul>
-  {% assign sorted_pages = site.coolstuffs | sort:"order" %}
-  {% for post in sorted_pages reversed %}
+  {% assign cool_posts = site.posts | where: "categories", "cool-stuff" | sort:"order" %}
+  {% for post in cool_posts reversed %}
     <li>
       <h2><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h2>
       {{ post.excerpt }}

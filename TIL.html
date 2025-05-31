@@ -6,8 +6,8 @@ permalink: /til/
 <h1>Today I Learned</h1>
 
 <ul>
-  {% assign sorted_pages = site.tilearned | sort:"order" %}
-  {% for post in sorted_pages reversed %}
+  {% assign til = site.posts | where: "categories", "til" | sort:"order" %}
+  {% for post in til reversed %}
     <li>
       <h2><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h2>
       {{ post.excerpt }}
