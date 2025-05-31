@@ -24,20 +24,15 @@ description: >- # this means to ignore newlines until "baseurl:"
   math crankery
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "xennonio.github.io" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username:
-github_username:
+github_username: xennonio
 
 # Build settings
 theme: minima
 plugins:
   - jekyll-feed
-markdown: kramdown
+
 kramdown:
-  math_engine: mathjax
-  syntax_highlighter_opts:
-    disable : true
-  math_engine_opts:
-    preview: false
+  math_engine: katex
 
 # Exclude from processing.
 # The following items will not be processed, by default.
