@@ -7,4 +7,3 @@ title: Home
 permalink: /
 ---
 
-deixa eu ver se esse é o home
